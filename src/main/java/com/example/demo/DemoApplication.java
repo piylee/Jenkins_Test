@@ -11,7 +11,7 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String home() {
-		return "Hello World! Jenkins auto build test!!!!!!!";
+		return "Hello World! Jenkins auto build&publish test end!!!!";
 	}
 
 	public static void main(String[] args) {
